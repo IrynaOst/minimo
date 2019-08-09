@@ -9,7 +9,6 @@ a{
     text-decoration: none;
 }
 
-
 /* Containers settings */
 
 .conteiner,
@@ -119,10 +118,6 @@ header a{
     line-height: 1.714;
 }
 
-.burger-menu{
-    display: none;
-}
-
 /* MAIN */
 
 img{
@@ -142,7 +137,7 @@ small {
     line-height: 1.2; 
 }
 
-p, input[placeholder] {
+p, input[placeholder]{
     font-size: 14px;
     font-family: 'Playfair Display', serif;
     color: rgb(98, 98, 98);
@@ -150,7 +145,7 @@ p, input[placeholder] {
     margin-bottom: 50px;
 }
 
-h2 {
+h2{
     font-size: 30px;
     font-weight: 300;
     font-family: 'Playfair Display', serif;
@@ -170,7 +165,7 @@ h2 {
 
 /* Form for email */
 
-.form-email{
+.grey-zone{
     margin-top: 75px;
     height: 285px;
     background: #f0f0f0;   
@@ -193,14 +188,14 @@ input[placeholder]{
     margin-bottom: 0;
 }
 
-/* Button load_more */
+/* Button_load more */
 
 .none-border{
     background: none;
     border:none;
 }
 
-.load_more {
+.load_more{
     font-size: 20px;
     font-family: 'Playfair Display', serif;
     color: rgb(98, 98, 98);
@@ -238,8 +233,8 @@ i{
     color: #626262; 
 }
 
-
 @media (max-width: 1024px){
+   
     .logo{
         font-size: 25px;
         letter-spacing: 8px;
@@ -270,8 +265,10 @@ i{
         margin-bottom: 2.5rem;
     }
 }
+
   
 @media (max-width: 768px){
+
     .conteiner-fluid{
         padding-top: 3rem;
     }
@@ -313,7 +310,7 @@ i{
         margin-bottom: 1.3rem;
     }
 
-    .form-email{
+    .grey-zone{
         margin-top: 3rem;
         height: 15rem;
     }
@@ -334,6 +331,7 @@ i{
 }
 
 @media (max-width: 576px){
+   
     .conteiner-fluid{
         padding: 0;  
     }
@@ -345,8 +343,8 @@ i{
 
     header>nav{
         display: none;
-    } 
-    
+    }
+
     /* Burger-menu */
 
     .burger-menu{
@@ -533,6 +531,7 @@ i{
     .font-size-for-320px{
         font-size: .7rem;
     }
+
 }
 
   

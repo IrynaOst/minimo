@@ -12,18 +12,18 @@
     <title>Minimø</title>
 </head>
 <body>
-
     <header class="d-flex justify-content-flex-end conteiner-fluid">
         <div class="logo d-flex">
             minimø
         </div>
 
         <div class="burger-menu">
-          
             <input id="menu_toggle" type="checkbox"/>
             <label class="burger-menu_btn d-flex align-items-center justify-content-center" for="menu_toggle">
                 <span class="burger-menu_lines"></span>
             </label>
+
+            <label class="burger-menu_overlay" for="menu_toggle"></label>
 
             <nav class="burger-menu_nav d-flex">
                 <a href="#lifestyle" class="burger-menu_link">lifestyle</a>
@@ -31,9 +31,6 @@
                 <a href="#music" class="burger-menu_link">music</a>
                 <a href="#travel" class="burger-menu_link">travel</a>
             </nav>
-
-            <div class="burger-menu_overlay"></div>
-
         </div>
 
         <nav>
@@ -44,10 +41,8 @@
                 <li class="d-flex"><a href="#travel" class="d-inline-block p-r-0 cursor-pointer">travel</a></li>
             </ul>
         </nav>
-
     </header>
 
-    
     <main>
         <div class="main-photo conteiner-fluid">
             <img src="images/main-photo.png" alt="main photo">
@@ -72,6 +67,7 @@
                 <div class="news-photo">
                     <img src="images/photo1.png" alt="">
                 </div>
+
                 <div class="news-text">
                     <small>lifestyle</small>
                     <h2>More than just a music festival</h2>
@@ -85,6 +81,7 @@
                 <div class="news-photo">
                     <img src="images/photo2.png" alt="">
                 </div>
+
                 <div class="news-text">
                     <small>lifestyle</small>
                     <h2>Life tastes better with coffee</h2>
@@ -92,13 +89,13 @@
                         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque facilis fugit qui cupiditate incidunt voluptatibus aspernatur animi culpa? Cumque autem itaque minus tempore molestiae quasi vitae voluptates suscipit. Ullam, cupiditate.</p>
                     </div>
                 </div>
-
             </div>
 
             <div class="news-item p-r-30">
                 <div class="news-photo">
                     <img src="images/photo3.png" alt="">
                 </div>
+
                 <div class="news-text">
                     <small>photodiary</small>
                     <h2>American dream</h2>
@@ -106,13 +103,13 @@
                         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque facilis fugit qui cupiditate incidunt voluptatibus aspernatur animi culpa? Cumque autem itaque minus tempore molestiae quasi vitae voluptates suscipit. Ullam, cupiditate.</p>
                     </div>
                 </div>
-
             </div>
 
             <div id="travel" class="news-item p-l-30">
                 <div class="news-photo">
                     <img src="images/photo4.png" alt="">
                 </div>
+
                 <div class="news-text">
                     <small>photodiary</small>
                     <h2>A day exploring the Alps</h2>
@@ -122,26 +119,22 @@
                 </div>
 
             </div>
-
         </section>
 
-        <section class="grey-zone d-flex align-items-center flex-direction-column justify-content-center">
-
+        <section class="form-email d-flex align-items-center flex-direction-column justify-content-center">
             <div>
                 <h2>Sign up for our newsletter!</h2>
             </div>
 
             <div class="email d-flex flex-direction-row justify-content-between">
-
                 <div>
                     <input type="email" name="email" placeholder="Enter a valid email address">
                 </div>
+
                 <div>
                     <button class="none-border cursor-pointer"><img src="images/sendicon.png" alt=""></button>
                 </div>
-
             </div>
-
         </section>
 
         <section id="music" class="conteiner d-flex f-wrap">
@@ -169,20 +162,16 @@
                         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque facilis fugit qui cupiditate incidunt voluptatibus aspernatur animi culpa? Cumque autem itaque minus tempore molestiae quasi vitae voluptates suscipit. Ullam, cupiditate.</p>
                     </div>
                 </div>
-
             </div>
-
         </section>
 
         <div class="conteiner">
            <button class="load_more none-border cursor-pointer">Load more</button>
         </div>
-
     </main>
 
     
     <footer class="d-flex justify-content-flex-end align-items-center">
-
         <div class="d-flex footer-left">
             <ul class="d-flex list-unstyled">
                 <li class="font-size-for-320px">Terms and conditions</li>
@@ -198,8 +187,6 @@
                 <li class="d-flex"><a href="#" class="d-inline-block p-r-0"><i class="fab fa-instagram"></i></a></li>
             </ul>
         </nav>
-
     </footer>
-
 </body>
 </html>
